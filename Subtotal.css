@@ -1,0 +1,35 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.subtotal > button {
+    height: 30px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 650px) {
+    .subtotal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+        width: 120px;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 3px;
+    }
+
+    .subtotal > button {
+        height: 50px;
+        border-radius: 3px;
+    }
+}

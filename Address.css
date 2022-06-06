@@ -1,0 +1,111 @@
+.wrapper form{
+    margin:35px 30px;
+}
+
+form .dbl-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.dbl-field .field{
+    height: 50px;
+    width: calc(100% /2 - 13px);
+}
+
+form .field input,
+form .message textarea{
+    height: 100%;
+    width: 97%;
+    outline:none;
+    padding: 0 5px;
+    font-size:16px ;
+    margin-top: 15px;
+    border-radius: 5px;
+    border:1px solid black
+}
+
+
+form .field input::placeholder,
+form .message textarea::placeholder{
+    color:black
+}
+
+form .message textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+}
+
+form .field input:focus,
+form .message textarea:focus{
+    border: 2px solid red
+}
+
+form .button-area{
+    margin: 25px 0;
+}
+
+.button-area button{
+    font-size: 18px;
+    border:none;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    background: grey;
+    padding: 13px 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    
+}
+
+.button-area span{
+    color: red;
+    margin-left: 30px;
+    display: none;
+}
+
+@media(max-width: 600px){
+    .wrapper header{
+        text-align: center;
+    }
+    form .dbl-field{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .dbl-field .field{
+        width:100%;
+    }
+    .button-area button{
+        width: 100%;
+    }
+
+    form .button-area{
+        flex-direction: column;
+    }
+
+    .button-area span{
+        margin-right: 20px 0;
+        text-align: center;
+        
+    };
+}
+
+
+
+
+
+.Address-confirmation{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper{
+    background-image: linear-gradient(170deg,black,grey);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,49 @@
+
+
+.login_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(black , white);
+}
+
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border:1px solid lightgray;
+    padding: 20px;
+    background-color: white;
+}
+
+h1{
+    color:black;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+h5{
+    color:black;
+    font-weight:500;
+}
+
+.login_container > form > input{
+    width:98%;
+    margin-bottom : 10px;
+}
+
+button.login_registerButton{
+    margin-left: 10px;
+}
